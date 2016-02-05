@@ -28,6 +28,7 @@
 \social[viadeo]{sylvestre.gallon}
 \social[github]{SylvestreG}
 \photo[64pt][0.4pt]{sylvestre.jpg}
+\extrainfo{31 ans - Mari\'e}
 
 \usepackage{multibib}
 \newcites{book,misc}{{Books},{Others}}
@@ -40,54 +41,70 @@
 
 \cventry{2011--Now\\\includegraphics[scale=0.10]{jdsu.png}}
 {Ing\'enieur R\&D}
-{JDSU}
+{JDSU - VIAVI}
 {Saint Etienne}
 {}
-{JDS Uniphase Corporation est une compagnie qui industrialise des produits
+{JDS Uniphase Corporation est une enterprise qui industrialise des produits
 dans le domaine des communications r\'eseaux, du test des moyens de
 communications, des lasers, et des solutions optiques.
-J ai rejoins JDSU au sein de l'\'equipe R\&D pour travailler sur des besoins
-syst\`emes. J'ai lors de ces ann\'ees travaill\'e \`a la refonte de la couche
-r\'eseaux dans leur produits, ajouter des fonctionnalit\'es sans fil
-(Wireless, Bluetooth) et je leur ai aider \`a prendre le virage du Cloud.
-J'ai aussi activement participer a la refonte de nos interface en poussant
-\`a l'utilisation des libraries Qt a la place des librairies X11.
-Lors de cette experience, j'ai developp\'e du code m\'etier en C C++ sous
-Linux. mais aussi travailler sur Yocto, UBoot, et le Kernel Linux.
+J'ai rejoins JDSU au sein de l'equipe R\&D pour travailler sur des besoins
+drivers. J'ai, lors de ces ann\'ees, travaill\'e \`a la refonte de la couche
+r\'eseaux de leurs produits, ajout\'e des fonctionnalit\'es sans fil
+(Wireless, Bluetooth) et je les ai aid\'e \`a prendre le virage du Cloud.
+J'ai aussi activement particip\'e \`a la refonte de nos interfaces en poussant
+\`a l'utilisation des libraries Qt \`a la place des librairies X11.
+Lors de cette exp\'erience, j'ai developp\'e du code m\'etier en C C++ sous
+Linux, mais aussi travaill\'e sur Yocto, UBoot, et le Kernel Linux.
+}
+
+\cventry{2010--2010\\\includegraphics[scale=0.20]{systar.png}}
+{Ing\'enieur R\&D}
+{Systar}
+{Lyon/Paris}
+{}
+{Systar est un \'editeur logiciels de gestion de performance 
+op\'erationnelle permettant aux grandes entreprises d'optimiser l'efficacit\'e
+de leurs activit\'es et de leur infrastructure informatique. 
+Je suis rentr\'e chez Systar au sein de l'\'equipe de R\&D pour travailler sur 
+l'architecture de leur future solution de capacity management. J'ai donc
+travaill\'e \`a la conception d'un agent syst\`eme multi-plateforme.
 }
 
 \cventry{2007--2010\\\includegraphics[scale=0.15]{adeneo.jpg}}
-{R\&D Engineer}
+{Ing\'enieur R\&D}
 {Adeneo Embedded}
-{Paris}
+{Lyon}
 {}
-{Adeneo Embedded is an expert society in embedded software with BSP
-development speciality (Windows CE, Linux and Android).
-My work consisted to driver development and development of differents
-firmwares. I did this work on differents architecture (Atmel, Freescale,
-NXP, TEXAS INSTRUMENTS,...).
-I also perform an expertise mission in Windows CE fields at Ingenico
-Valence and these differents developement:
+{Adeneo Embedded est une soci\'et\'e experte en logiciel embarqu\'e 
+avec comme sp\'ecialit\'e le developement de BSP (Windows CE, Linux et
+Android).
+Mon travail a consist\'e \`a d\'evelopper diff\'erents drivers et diff\'erents
+firmwares. J'ai travaill\'e pour eux sur de nombreuses architectures 
+(Atmel, Freescale, NXP, Texas Instruments,...).
+J'ai aussi r\'ealis\'e des missions d'expertise Windows CE pour des 
+grands comptes comme Ingenico \`a Valence ainsi que les d\'eveloppements suivants:
 \begin{itemize}
-\item Research and development on USB drivers;
-\item Developement of the neocore926 BSP;
-\item Developement of the at91sam9rlek BSP;
-\item Research and development on windows embedded compact chelan (ce7);
-\item Research and development on efficient SoC abstraction in BSP;
-\item Research and development on efficient Clock management in BSP.
+\item Recherche et d\'eveloppment sur les stacks et drivers USB.
+\item D\'eveloppement du BSP neocore926.
+\item D\'eveloppement du BSP at91sam9rlek.
+\item D\'eveloppement de BootStrap et Bootloader.
+\item Recherche et d\'eveloppment sur windows embedded compact chelan (ce7).
+\item Recherche et d\'eveloppment sur des m\'ecanismes d'abstraction des SoC pour nos BSP.
+\item Recherche et d\'eveloppment sur l'impl\'ementation d'un arbre de clock pour nos BSP.
 \end{itemize}
 }
 
 \cventry{2007\\6 Months\\\includegraphics[scale=0.15]{lp-digital.png}}
-{IT Manager}
+{Responsable Informatique}
 {LP Digital}
 {Paris}
 {}
-{I was the IT Manager in a web agency.\newline{}
-My work consisted in managing our 10 internals servers and 20 externals ones
-( a lot of RedHat/Debian and some 2003 servers) and to reconstruct the IT
-architecture.
-I have also done IT purchases (servers, licences, hardware) and user helpdesk.
+{J'ai endoss\'e le r\^ole de responsable informatique pour une web agency.\newline{}
+Mon travail a consist\'e \`a la gestion de nos 10 serveurs internes et 20 serveurs
+externes (beaucoup de RedHat/Debian quelques 2003 server et OpenBSD). J'ai aussi
+engag\'e une refonte de l'architecture IT.
+J'ai eu \`a g\'erer les achats IT (serveurs, licences, mat\'eriel) et \`a venir en aide
+aux utilisateurs du parc informatique.
 }
 
 \section{Education}
@@ -111,37 +128,43 @@ I have also done IT purchases (servers, licences, hardware) and user helpdesk.
 \cventry{2013--2014\\\includegraphics[scale=0.10]{openbsd.png}}
 {Hacker}
 {OpenBSD}
-{Worldwide Remote}
+{Remote}
 {}
-{Description line 1\newline{}Description line 2}
+{
+Ma premi\`ere contribution au projet OpenBSD fut l'impl\'ementation du filesystem
+FUSE.\newline{}
+Je suis assez rapidement devenu mainteneur de certains paquets (fuse, 
+openocd, nasm, tuxracer, etc...) et j'ai fait de nombreux commits sur l'architecture
+ARM ( en particulier sur des cartes OMAP, SUNXI et Freescale...) 
+}
 
 \cventry{2009\\6 Months\\\includegraphics[scale=0.08]{freebsd.png}
 \\\includegraphics[scale=0.05]{google.png}}
-{FreeBSD Hacker for GSOC 2009}
+{FreeBSD Hacker pour le GSOC 2009}
 {Google}
-{Worldwide Remote}
+{Remote}
 {}
-{I am a member of the Google Summer Of Code 2009 students. My job during this
-summer of code was to add libusb-1.0 support into FreeBSD. I also have to
-implement USB drivers and some changes into the Hans Petter Selasky USB Stack.
+{
+J'ai particip\'e au Google Summer Of Code 2009. Ma r\'ealisation
+durant ce Summer of Code, a \'et\'e de rajouter les supports de la libusb-1.0 
+pour FreeBSD. J'ai aussi implement\'e des drivers USB et apport\'e certains
+changements dans la stack USB d'Hans Petter Selasky.
 }
 
 \section{Computer skills}
-\cvdoubleitem{Languages}{C, C++\\Python, Perl, Go}{System}{Linux, OpenBSD, FreeBSD\\Windows Servers}
-\cvdoubleitem{Assembly}{Avr, x86, Arm}{SoC}{IMX.6, OMAP4, AT91, ZYNQ}
-\cvdoubleitem{Api}{Qt, DBus, Stl, GLib}{Hw Protocol}{USB, I2C, SPI, MMC, 1WIRE}
+\cvdoubleitem{Langages}{C, C++\\Python, Perl, Go}{Systemes}{Linux, OpenBSD, FreeBSD\\Windows, Windows Servers}
+\cvdoubleitem{Assembleurs}{Avr, x86, Arm}{SoC}{IMX.6, OMAP4, AT91, ZYNQ}
+\cvdoubleitem{Api}{Qt, DBus, Stl, GLib}{Hw Protocol}{USB, I2C, SPI, MMC, CAN}
 \cvdoubleitem{Scripting}{Bash, ksh, tcsh}{Bootloader}{UBoot, Eboot, RedBoot}
-\cvdoubleitem{Versionning}{Git, Mercurial, svn, cvs}{EDI}{Eclipse, Vim, VisualStudio}
+\cvdoubleitem{Versionning}{Git, Mercurial, svn, cvs}{EDI}{Eclipse, Vim, Kdevelop, VisualStudio}
 \cvdoubleitem{Database}{sqlite, Postgresql, mysql}{IOT}{SigFox, Bluetooth, Wifi}
 \cvdoubleitem{Embedded}{Yocto, LTIB, Buildroot}{}{}
 
 \section{Languages}
-\cvitemwithcomment{French}{Native Speaker}{}
-\cvitemwithcomment{English}{Fluent}{}
-\cvitemwithcomment{C/C++}{Fluent}{}
+\cvitemwithcomment{English}{Courant - Dans un souci de perfectionnement oral, je suis actuellement des cours hebdomadaires bas\'es sur le volontariat.}{}
 
 \section{Interests}
-\cvitem{Mechanical Sports}{Moto and car driver especially on racing circuit}
-\cvitem{DIY}{Like to do DIY stufff and I am currently renovating a house}
+\cvitem{Sports M\'ecaniques}{Moto et voiture avec une passion pour les v\'ehicules anglais.}
+\cvitem{Bricolage}{Je suis en train de renover une maison sur Issoire.}
 
 \end{document}
